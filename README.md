@@ -1,4 +1,4 @@
-# agr1920-portfolio-clone
+# agr1920-portfolio-clone [![CircleCI](https://circleci.com/gh/tmy/agr1920-portfolio-clone.svg?style=shield)](https://circleci.com/gh/tmy/workflows/agr1920-portfolio-clone)
 
 > A Vue.js project
 
