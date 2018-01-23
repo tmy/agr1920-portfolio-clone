@@ -1,5 +1,6 @@
 const express = require('express');
 const config = require('../../../config');
+const rewrite = require('./rewrite');
 
 function run() {
   const host = process.env.HOST || 'localhost';
@@ -8,6 +9,7 @@ function run() {
   const app = express();
   app.disable('x-powered-by');
   app.use(express.static(config.build.assetsRoot));
+  app.get('*', rewrite);
   app.listen(port, host, (err) => {
     if (!err) {
       global.console.info(`server started ${host}:${port}`);
