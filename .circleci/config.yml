@@ -1,0 +1,52 @@
+defaults: &defaults
+  working_directory: /home/circleci/app
+  docker:
+    - image: circleci/node:8.9.4
+
+version: 2
+jobs:
+  install:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          key: app-npm-all-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - save_cache:
+          key: app-npm-all-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+      - persist_to_workspace:
+          root: /home/circleci
+          paths:
+            - app
+  eslint:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /home/circleci
+      - run: npm run lint -- --format junit --output-file /home/circleci/app/reports/eslint.xml
+      - store_test_results:
+          path: /home/circleci/app/reports
+      - store_artifacts:
+          path: /home/circleci/app/reports
+  unit:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /home/circleci
+      - run: npm run unit -- --maxWorkers 2
+      - store_artifacts:
+          path: /home/circleci/app/test/unit/coverage
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - install
+      - eslint:
+          requires:
+            - install
+      - unit:
+          requires:
+            - install
