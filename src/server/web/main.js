@@ -8,7 +8,7 @@ function run() {
 
   const app = express();
   app.disable('x-powered-by');
-  app.use(express.static(config.build.assetsRoot));
+  app.use(express.static(config.build.assetsRoot, { maxAge: 31536000000 }));
   app.get('*', rewrite);
   app.listen(port, host, (err) => {
     if (!err) {
