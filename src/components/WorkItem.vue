@@ -6,7 +6,9 @@
           @click="description = true"
           v-ripple
         >
-          <img :src="item.image_data" class="work-item-image">
+          <div class="work-item-square">
+            <img :src="item.image_data" class="work-item-image">
+          </div>
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">{{ item.title }}</h3>
@@ -64,8 +66,18 @@ export default {
   overflow: hidden;
 }
 
+.work-item-square {
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+
 .work-item-image {
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
 }
 
