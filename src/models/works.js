@@ -1,0 +1,302 @@
+/* eslint-disable global-require */
+
+export default [
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://cineraria-studio.com/cnrcd0012/',
+      },
+    ],
+    _id: '5a63fbad23d88193becb1f6b',
+    title: 'Another Trail',
+    circle_name: 'Cineraria Studio',
+    release: 'M3(2017秋)',
+    release_date: '2017-10-29T00:00:00.000Z',
+    image_name: 'another_trail.jpg',
+    image_data: require('../assets/works/img/another_trail.jpg'),
+    description: '4曲目「step into the rain(ag Remix)」で参加させていただきました。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://swingrooves.com/everafter/',
+      },
+    ],
+    _id: '5a63f83a9d2b93c3b2e50f91',
+    title: 'Ever After',
+    circle_name: 'Swingrooves',
+    release: 'M3(2017秋)',
+    release_date: '2017-10-29T00:00:00.000Z',
+    image_name: 'ever_after.jpg',
+    image_data: require('../assets/works/img/ever_after.jpg'),
+    description: '参加ユニットSwingroovesの2017秋M3新譜です。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://adh6.diverse.jp',
+      },
+      {
+        name: 'kurasaki',
+        url: 'https://ksaky.tumblr.com',
+      },
+    ],
+    _id: '5a63fd082db49a2b2f4ec114',
+    title: 'AD:HOUSE 6',
+    circle_name: 'Diverse System',
+    release: 'コミックマーケット(2017夏)',
+    release_date: '2017-08-11T00:00:00.000Z',
+    image_name: 'ad_house_6.jpg',
+    image_data: require('../assets/works/img/ad_house_6.jpg'),
+    description: 'Disc1-4曲目「Shine」で参加させていただきました。ボーカルは倉先さんです。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'https://www.youtube.com/watch?v=vnfDS2Ei_eI',
+      },
+    ],
+    _id: '5a63fed35345559e9c6344e6',
+    title: 'LOVE CALL EP',
+    circle_name: '夏4B',
+    release: '大阪西天満House Bar MUSEにて開催の「夏4B」限定頒布',
+    release_date: '2017-08-05T00:00:00.000Z',
+    image_name: 'love_call_ep.jpg',
+    image_data: require('../assets/works/img/love_call_ep.jpg'),
+    description: '大阪西天満House Bar MUSEにて開催されたハウスパーティー「夏4B」にて限定頒布されたフリーのリミックストラック集です。※現在は入手不可となります。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'https://p.eagate.573.jp/game/sdvx/iv/p/index.html',
+      },
+    ],
+    _id: '5a65da2d26ecaa7df800cfee',
+    title: 'SOUND VOLTEX IV',
+    circle_name: 'KONAMI',
+    release: '楽曲公募「アルバム「STARLiGHT」発売記念 Ryu☆リミックスコンテスト」にて採用',
+    release_date: '2017-06-15T00:00:00.000Z',
+    image_name: 'sound_voltex_iv.jpg',
+    image_data: require('../assets/works/img/sound_voltex_iv.jpg'),
+    description: '楽曲公募「アルバム「STARLiGHT」発売記念 Ryu☆リミックスコンテスト」で、「Mind Mapping(ag Remix)」を採用いただきました。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'https://www.youtube.com/watch?v=vnfDS2Ei_eI',
+      },
+      {
+        name: 'kurasaki',
+        url: 'https://ksaky.tumblr.com',
+      },
+    ],
+    _id: '5a640235486539db6e6e9b1c',
+    title: 'Honey Cheeks 2',
+    circle_name: 'Lick Dom Records & Neutrinique',
+    release: 'M3(2017春)',
+    release_date: '2017-04-30T00:00:00.000Z',
+    image_name: 'honey_cheeks_2.jpg',
+    image_data: require('../assets/works/img/honey_cheeks_2.jpg'),
+    description: '2曲目「One Day」で参加させていただきました。ボーカルは倉先さんです。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://swingrooves.com/theastralcitysoundtrack',
+      },
+    ],
+    _id: '5a641ed8b490fe399b22fa15',
+    title: 'The Astral City Soundtrack',
+    circle_name: 'Swingrooves',
+    release: 'M3(2017春)',
+    release_date: '2017-04-30T00:00:00.000Z',
+    image_name: 'the_astral_city_soundtrack.jpg',
+    image_data: require('../assets/works/img/the_astral_city_soundtrack.jpg'),
+    description: '参加ユニットSwingroovesの2017年春M3新譜です。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://swingrooves.com/thenextlittlestep',
+      },
+    ],
+    _id: '5a6497f55ff1b569244f350a',
+    title: 'the next little step',
+    circle_name: 'Swingrooves',
+    release: 'M3(2016秋)',
+    release_date: '2016-10-30T00:00:00.000Z',
+    image_name: 'the_next_little_step.jpg',
+    image_data: require('../assets/works/img/the_next_little_step.jpg'),
+    description: '参加ユニットSwingroovesの2016年秋M3新譜です。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'https://ginkiha.bandcamp.com/album/girl-meets-girl',
+      },
+      {
+        name: 'TEA',
+        url: 'https://yummy-tea.tumblr.com',
+      },
+    ],
+    _id: '5a64871fa28774d74ace70fc',
+    title: 'Girl meets Girl',
+    circle_name: 'NIZI-RINGO',
+    release: 'M3(2016秋)',
+    release_date: '2016-10-30T00:00:00.000Z',
+    image_name: 'girl_meets_girl.jpg',
+    image_data: require('../assets/works/img/girl_meets_girl.jpg'),
+    description: '4曲目「sunday candy」で参加させていただきました。ボーカルはTEAさんです。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://swingrooves.com/thenextlittlestep',
+      },
+      {
+        name: 'kurasaki',
+        url: 'https://ksaky.tumblr.com',
+      },
+    ],
+    _id: '5a65c75389abf2cb9a2054b1',
+    title: 'AD:HOUSE 5',
+    circle_name: 'Diverse System',
+    release: 'コミックマーケット(2016夏)',
+    release_date: '2016-08-14T00:00:00.000Z',
+    image_name: 'ad_house_5.jpg',
+    image_data: require('../assets/works/img/ad_house_5.jpg'),
+    description: 'Disc1-3曲目「Starlight」で参加させていただきました。ボーカルは倉先さんです。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'swingrooves.com/thebeginning',
+      },
+    ],
+    _id: '5a65c968f2217fefb3235625',
+    title: 'The Beginning',
+    circle_name: 'Swingrooves',
+    release: 'M3(2016年春)',
+    release_date: '2016-04-24T00:00:00.000Z',
+    image_name: 'the_beginning.jpg',
+    image_data: require('../assets/works/img/the_beginning.jpg'),
+    description: '参加ユニットSwingroovesの2016年春M3の新譜です。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://callionet.com/CLNT-0004/index.html',
+      },
+    ],
+    _id: '5a65cb835d0dfe43a42e0e83',
+    title: 'Coluder',
+    circle_name: 'Callionet',
+    release: 'M3(2015年秋)',
+    release_date: '2015-10-25T00:00:00.000Z',
+    image_name: 'coluder.jpg',
+    image_data: require('../assets/works/img/coluder.jpg'),
+    description: "3曲目「I'm fine, thank you.で参加させていただきました。",
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://swingrooves-retro-future.tumblr.com',
+      },
+    ],
+    _id: '5a65ccedad4714bc2ed3516a',
+    title: 'Retro Future',
+    circle_name: 'Swingrooves',
+    release: 'M3(2015年秋)',
+    release_date: '2015-10-25T00:00:00.000Z',
+    image_name: 'retro_future.jpg',
+    image_data: require('../assets/works/img/retro_future.jpg'),
+    description: '参加ユニットSwingroovesの2015年秋M3の新譜です。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://9bitlogiq.web.fc2.com/VocaLogiQ-PARTY2/VocaLogiQ-PARTY2.html',
+      },
+    ],
+    _id: '5a65cf2c0c34a16374bd09b4',
+    title: 'VocaLog!Q PARTY! 2',
+    circle_name: '9bit Log!Q+',
+    release: 'コミックマーケット(2015年夏)',
+    release_date: '2015-08-16T00:00:00.000Z',
+    image_name: 'vocalog!q_party!_2.jpg',
+    image_data: require('../assets/works/img/vocalog_q_party_2.jpg'),
+    description: '2曲目「With Your Smile」で参加させていただきました。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://adh4.diverse.jp',
+      },
+      {
+        name: 'kurasaki',
+        url: 'https://ksaky.tumblr.com',
+      },
+    ],
+    _id: '5a65ce29c4362706fe2fc001',
+    title: 'AD:HOUSE 4',
+    circle_name: 'Diverse System',
+    release: 'コミックマーケット(2015年夏)',
+    release_date: '2015-08-16T00:00:00.000Z',
+    image_name: 'ad_house_4.jpg',
+    image_data: require('../assets/works/img/ad_house_4.jpg'),
+    description: 'Disc2-7曲目「Follow Me」で参加させていただきました。ボーカルは倉先さんです。',
+  },
+  {
+    website_link: [],
+    _id: '5a65d007f66cb88dfa83b2a8',
+    title: 'a daisy day',
+    circle_name: 'Music Mix Organization',
+    release: 'M3(2015年春)',
+    release_date: '2015-04-26T00:00:00.000Z',
+    image_name: 'a_daisy_day.jpg',
+    image_data: require('../assets/works/img/a_daisy_day.jpg'),
+    description: '参加サークルMusic Mix Organizationの2015年春M3新譜です。',
+  },
+  {
+    website_link: [],
+    _id: '5a65d0826d0c21c5e92c7b27',
+    title: 'Good Love',
+    circle_name: 'Swingrooves',
+    release: 'M3(2015年春)',
+    release_date: '2015-04-26T00:00:00.000Z',
+    image_name: 'good_love.jpg',
+    image_data: require('../assets/works/img/good_love.jpg'),
+    description: '参加ユニットSwingroovesの2015年春M3新譜です。',
+  },
+  {
+    website_link: [
+      {
+        name: 'website',
+        url: 'http://cineraria-studio.com/cnrcd0007/',
+      },
+    ],
+    _id: '5a65d920360df9dfbe975aba',
+    title: "Ninety's Remnants",
+    circle_name: 'Cineraria Studio',
+    release: 'M3(2015年春)',
+    release_date: '2015-04-26T00:00:00.000Z',
+    image_name: 'ninety_s_remnants.jpg',
+    image_data: require('../assets/works/img/ninety_s_remnants.jpg'),
+    description: "9曲目「It's Over」で参加させていただきました。",
+  },
+];
